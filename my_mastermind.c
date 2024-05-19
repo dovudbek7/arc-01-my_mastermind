@@ -52,6 +52,7 @@ char *generateSecretCode() {
         secretCode[i] = num;
     }
     secretCode[4] = '\0';
+
     return secretCode;
 }
 
